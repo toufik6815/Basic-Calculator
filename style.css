@@ -1,0 +1,30 @@
+input {
+    width: 100px;
+    height: 80px;
+    font-size: 60px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 5px;
+}
+#display {
+    width: 422px;
+    height: 70px;
+    padding: 10px 10px;
+    background-color: #3498db;
+    color: black;
+    text-align: right;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 30px 15px;
+}
+h1 {    text-align: center;
+        font-size: 40px;
+        margin: 0; }
